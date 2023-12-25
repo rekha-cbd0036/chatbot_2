@@ -1,0 +1,185 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Good Morning",
+                "Good Evening",
+                "Good afternoon",
+                "Hey",
+                "Whats up",
+                "Is anyone there"
+            ],
+            "responses": [
+                "Hello. Welcome to Mega Chatbot bank",
+                "Hi  We are here to provide our service",
+                "Welcome",
+                "Hi there"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name?",
+                "May I know your name?",
+                "Your name please."
+            ],
+            "responses": [
+                "My name is Megabot",
+                "You can call me financial Asistance"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Tell about the bank.",
+                "Can I know about the bank",
+                "When this bank has been started”, “Tell about your company”,”can i trust this bank”,”what is the starting year of this bank"
+            ],
+            "responses": [
+                "April 1, 1935 RBI  Bank was started",
+                "The RBI bank assists customers through the various products and services it offers",
+                "RBI bank has provided excellent customer service"
+            ]
+        },
+        {
+            "tag": "services",
+            "patterns": [
+                "what are the services RBI bank offers ",
+                "Name the services provided in this bank",
+                "What are the benefits rendered by RBI Bank",
+                "Describe the service provided by this bank.",
+                "what are the available services"
+            ],
+            "responses": [
+                "ABC bank provides services such as account opening, digital products, and loans.",
+                " ABC bank offers support such as account opening, digital services, and loans."
+            ]
+        },
+        {
+            "tag": "accountopening",
+            "patterns": [
+                "Can you tell the types of account available in this bank",
+                "What are the types of accounts offered by the bank",
+                "What types of accounts are offered by this bank, please?",
+                "can i open a account?"
+            ],
+            "responses": [
+                "You can open an account in our bank which could be either a savings or a current account.",
+                "You may open an account with our bank, which may be a current or a savings account."
+            ]
+        },
+        {
+            "tag": "savecurrdiff",
+            "patterns": [
+                "Can you tell the difference between the savings and the current account ",
+                "How to choose between a savings and a current account?",
+                "which account should I prefer ",
+                "which account is beneficial",
+                "what is the difference between these accounts"
+            ],
+            "responses": [
+                "Current account is for entrepreneurs and business owners whereas savings account is for persons who get a monthly salary. ",
+                "If you are an entrepreneur and do frequent transactions, you can go with a current account.",
+                "If you get a monthly salary and perform less transactions, you can choose a savings account."
+            ]
+        },
+        {
+            "tag": "accountopenproc",
+            "patterns": [
+                "What documents are required to open an account with RBI Bank",
+                "How to open a bank account at RBI",
+                "Can you elaborate the procedure for opening an bank account",
+                "what are the required documents"
+            ],
+            "responses": [
+                "Select which type of bank account you are going to open. Submit proof of identity and address"
+            ]
+        },
+        {
+            "tag": "loans",
+            "patterns": [
+                "What are the different loan categories available in this bank",
+                "Can I get loan for educational purposes",
+                "Can I get loan for agricultural purposes",
+                "Can I get loan for business oriented purposes",
+                "Can you list the categories of the loan provided by this bank",
+                "list the available loans"
+            ],
+            "responses": [
+                "Our bank facilitates its customers by providing loans in various domains such as agriculture, education and corporate.",
+                "Yes. We do provide in various domains like agriculture, education and for business-oriented purposes."
+            ]
+        },
+        {
+            "tag": "agriloan",
+            "patterns": [
+                "Who are able to apply for agriculture loan",
+                "What are the restrictions in applying for an agricultural loan",
+                "How to get agricultural loan”,”Can i get agriculture loan",
+                "Is there any restriction for applying agriculture loan"
+            ],
+            "responses": [
+                "The person must possess their own land and should know about the agricultural practices"
+            ]
+        },
+        {
+            "tag": "eduloan",
+            "patterns": [
+                "Is there any restriction on applying for educational loan",
+                "Should I submit any documents for an educational loan",
+                "Are mark sheets needed for applying loan for educational purpose",
+                "Am i eligible for educational loan "
+            ],
+            "responses": [
+                "Yes.You need to submit the admission letter of an institute and fee schedule and also submit the marksheets.",
+                "You must submit an institute's admission letter and fee schedule, as well as your marksheets."
+            ]
+        },
+        {
+            "tag": "businessloan",
+            "patterns": [
+                "Who are eligible for business loan",
+                "Am I eligible for business loan",
+                "Any restrictions for business loan",
+                "How to get business loan",
+                "What is the procedure to get business loan"
+            ],
+            "responses": [
+                "You should own an organisation/company under your name. You should submit the proof"
+            ]
+        },
+        {
+            "tag": "digitalproducts",
+            "patterns": [
+                "Can you tell about the digital products this bank provide",
+                "Does RBI bank offer digital products",
+                "What are the digital products?"
+            ],
+            "responses": [
+                "Yes. RBI bank provides many digital products like mobile banking, Online banking, UPI facilities, etc."
+            ]
+        },
+        
+       
+        {
+            "tag": "Thankyou",
+            "patterns": [
+                "Thank you for your service.",
+                "Bye Megabot",
+                "Bye",
+                "Thank You",
+                "Thank you so much Megachatbot."
+            ],
+            "responses": [
+                "Welcome. It is my pleasure.",
+                "Bye",
+                "Welcome."
+            ]
+        }
+    ]
+}
+
+        
